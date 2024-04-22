@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../utils/app_colors.dart';
@@ -265,7 +264,7 @@ class _DashboardPageState extends State<DashboardPage> {
                                   fontWeight: FontWeight.w400,
                                 ),
                               ),
-                              Text(
+                              const Text(
                                 "126",
                                 style: TextStyle(
                                   color: Color(0xff333A51),
@@ -314,7 +313,7 @@ class _DashboardPageState extends State<DashboardPage> {
                                   fontWeight: FontWeight.w400,
                                 ),
                               ),
-                              Text(
+                              const Text(
                                 "504",
                                 style: TextStyle(
                                   color: Color(0xff333A51),

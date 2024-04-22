@@ -20,7 +20,7 @@ class _SplashPageState extends State<SplashPage> {
       () {
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => OnboardingPage()),
+          MaterialPageRoute(builder: (context) => const OnboardingPage()),
         );
       },
     );
